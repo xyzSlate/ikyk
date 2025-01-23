@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assigno</title>
+    <style>
+        #div1 h1{
+            color: beige;
+            font-family: "Calibri Light";
+        }
+        #div1 p{
+            color: beige;
+        }
+        #div1{
+           text-align: center;
+            background-color: deepskyblue;
+            width: 45%;
+            font-size: 30px;
+            height: 775px;
+            padding-bottom: 30px;
+            box-shadow: 10px 10px 10px black;
+        }
+        form{
+            background-color: white;
+            padding: 80px;
+            box-shadow: 10px 10px 10px black;
+        }
+        legend{
+            font-family: Calibri;
+            text-align: center;
+            font-weight: bold;
+            font-size: 35px;
+        }
+        input[type=text],input[type=email],input[type=tel]{
+           margin-right:110px ;
+            border: none;
+            width: 250px;
+            padding: 25px;
+        }
+        #maindiv{
+            display: flex;
+            padding: 20px;
+            width: 1500px;
+        }
+        button{
+            width: 150px;
+            height: 45px;
+            border-radius: 20px;
+            border: none;
+            color: white;
+            background-color: deepskyblue;
+            align-content: center;
+            padding: 10px;
+        }
+        body{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+<div id="maindiv">
+    <div id="div1">
+    <h1>Let's chart</h1>
+    <p>Whether you have a question, want to start a project or simply want to connect</p>
+        <br><br>
+    <p>Feel free to send me a message in the contact form</p>
+</div>
+<div id="div2">
+    <form action="">
+        <legend>Contact</legend>
+        <p>*Required</p>
+        <input type="text" placeholder="Name*" required="required">
+        <br><br>
+        <input type="email" placeholder="Email*" required="required">
+        <br><br>
+        <input type="text" placeholder="Company" required>
+        <br><br>
+        <input type="tel" PLACEHOLDER="Phone" required="required">
+        <br><br>
+        <textarea name="" id="" cols="30" rows="10">Message</textarea>
+        <br>
+        <button>SUBMIT</button>
+    </form>
+</div>
