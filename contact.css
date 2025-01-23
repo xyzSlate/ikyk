@@ -1,0 +1,37 @@
+#main{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 70px;
+}
+#divisionone{
+    width: 50%;
+    background-color: aqua;
+    color: #f;
+    text-align: center;
+}
+#division2{
+    width: 50%;
+    background-color: lightblue;
+    padding: 30px;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+input[type=text],input[type=tel],
+    input[type=email],textarea{
+    width: 100%;
+}
+button{
+    background-color: #0acae3;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin 0 auto;
+}
+body{
+    background-color: mediumpurple;
+}
